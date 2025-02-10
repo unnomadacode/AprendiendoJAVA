@@ -14,16 +14,17 @@ EJEMPLO EN PSEUDOCÓDIGO:
                 pasos_a_dar
        SINO
                 pasos_alternativos
-*/
+ */
 public class EstructurasControlAlternativas {
+
     public static void main(String[] args) {
+
         int x = 5 - 2; // Creamos una variable que almacena un (5-2) = 3
         int resultado; // Creamos una variable resultado
-        if(x == 3) { // SI x = 3
+        if (x == 3) { // SI x = 3
             System.out.println("El valor es correcto"); // Imprimimos en pantalla este mensaje
             resultado = 5; // y almacenamos 5 en resultado
-        }
-        else { // SINO
+        } else { // SINO
             System.out.println("El valor es incorrecto"); // Imprimimos este mensaje
             resultado = 27; // y almacenamos 27 en resultado
         }

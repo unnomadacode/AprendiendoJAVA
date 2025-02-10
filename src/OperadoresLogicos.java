@@ -1,4 +1,4 @@
-/*
+  /*
 OPERADORES LÓGICOS
 Se utilizan para determinar la lógica entre variables o valores.
 Se almacena un valor booleano
